@@ -540,39 +540,6 @@ function App() {
                   <h3 className="text-xl font-bold">
                     Full Stack Developer Intern
                   </h3>
-                  <span className="text-gray-600">01/2025 to Present</span>
-                </div>
-                <p className="text-gray-700 mb-2">Innomatics Research Labs</p>
-                <ul className="list-disc ml-5 space-y-2 text-gray-700">
-                  <li>
-                    Collaborated with the development team to build and enhance
-                    web applications.
-                  </li>
-                  <li>
-                    Gained practical experience in frontend and backend
-                    development using modern frameworks.
-                  </li>
-                  <li>
-                    Contributed to project design, implementation, and testing
-                    to improve application performance
-                  </li>
-                  <li>
-                    Developed and maintained full-stack web applications using
-                    JavaScript, React, and Node.js, enhancing user experience
-                    and functionality.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="max-w-3xl mx-auto">
-            <div className="relative border-l-2 border-blue-500 pl-8 pb-12">
-              <div className="absolute -left-2 top-0 h-4 w-4 rounded-full bg-blue-500"></div>
-              <div className="mb-6">
-                <div className="flex flex-col md:flex-row md:justify-between md:items-center mb-2">
-                  <h3 className="text-xl font-bold">
-                    Full Stack Developer Intern
-                  </h3>
                   <span className="text-gray-600">08/2024 to 09/2024</span>
                 </div>
                 <p className="text-gray-700 mb-2">Exposys Data Labs</p>
@@ -928,6 +895,53 @@ function App() {
           </div>
         </div>
       </section>
+      {/* youtube videos */}
+      <section>
+        <div className="container py-5">
+          <h1 className="h2 text-center mb-4">My YouTube Videos</h1>
+          <div className="row">
+            <div className="col d-flex justify-content-center">
+              <div
+                className="ratio ratio-16x9"
+                style={{ width: '100%', maxWidth: '400px' }}
+              >
+                <iframe
+                  src="https://www.youtube.com/embed/cruFGY6PwJ4?si=DgCXVEI_e5VYV-hE"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col d-flex justify-content-center">
+              <div
+                className="ratio ratio-16x9"
+                style={{ width: '100%', maxWidth: '400px' }}
+              >
+                <iframe
+                  src="https://www.youtube.com/embed/dxqK_eI4Wlo?si=BpR9PJlyIh3rZoRF"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+            <div className="col d-flex justify-content-center">
+              <div
+                className="ratio ratio-16x9"
+                style={{ width: '100%', maxWidth: '400px' }}
+              >
+                <iframe
+                  src="https://www.youtube.com/embed/DHx9W2ZJ-Eg?si=QLEIbFl1cMR61omX"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Education Section */}
       <section id="education" className="py-20 bg-white">
@@ -1080,50 +1094,7 @@ function App() {
           </div>
         </div>
       </section>
-      {/* youtube videos  */}
-      <section>
-        <div className="container">
-          <h1 className="h2 text-center">My Youtube Videos</h1>
-          <div className="row">
-            <div className="col-lg-4 col-12">
-              <iframe
-                width="450"
-                height="315"
-                src="https://www.youtube.com/embed/cruFGY6PwJ4?si=DgCXVEI_e5VYV-hE"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div className="col-lg-4 col-12">
-              <iframe
-                width="450"
-                height="315"
-                src="https://www.youtube.com/embed/dxqK_eI4Wlo?si=BpR9PJlyIh3rZoRF"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-            <div className="col-lg-4 col-12">
-              <iframe
-                width="450"
-                height="315"
-                src="https://www.youtube.com/embed/DHx9W2ZJ-Eg?si=QLEIbFl1cMR61omX"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/* Achievements Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
